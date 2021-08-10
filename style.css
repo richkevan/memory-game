@@ -1,0 +1,16 @@
+#header {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#reset {
+    background-color: red;
+    color: antiquewhite;
+}
+#root {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: auto;
+}
