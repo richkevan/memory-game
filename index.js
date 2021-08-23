@@ -14,6 +14,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
 
+// Game timer function
 const gameTimer = () => {
     timerStart = true
     timerDiv.innerHTML = `<h3>Timer: ${time}</h3>`
@@ -122,7 +123,6 @@ reset.addEventListener('click', (e) => {
     time = 0
     timerDiv.innerHTML = `<h3>Timer: ${time}</h3>`
     root.innerHTML = ''
-    
     createCards()
     cardShuffle()
 })
